@@ -1,0 +1,40 @@
+---
+import Navbar from "../components/Navbar.svelte";
+import Articles from "../components/Articles.svelte";
+import Tutorials from "../components/Tutorials.svelte";
+import Editorial from "../components/Editorial.svelte";
+import Terbaru from "../components/Terbaru.svelte";
+import Design from "../components/Design.svelte";
+import Lainnya from "../components/Lainnya.svelte";
+---
+
+<html lang="en" class="bg-[#ECECEC]">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="max-w-[1280px] mx-auto">
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Articles />
+        <Tutorials />
+        <Editorial />
+        <Terbaru />
+        <Design />
+        <Lainnya />
+      </main>
+    </div>
+  </body>
+</html>
