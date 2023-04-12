@@ -26,10 +26,12 @@
   ];
 </script>
 
-<div class="bg-[#121212] w-full px-10">
+<div class="bg-[#121212] w-full md:px-10">
   <Logoblog />
-  <div class="flex text-white font-poppins px-5 pb-10 gap-10 bg-[#121212]">
-    <div class="w-1/2">
+  <div
+    class="flex md:flex-row 2xs:flex-col text-white font-poppins px-5 pb-10 gap-10 bg-[#121212]"
+  >
+    <div class="md:w-1/2">
       <img src={article1} alt="article 1" />
       <p class="text-[11px] opacity-50 pt-5 pb-[10px]">December 21, 2022</p>
       <h2 class="text-[28px] opacity-80 font-semibold leading-9 mb-4">
@@ -41,7 +43,7 @@
         yang dibuat bisa di develop.
       </p>
     </div>
-    <div class="flex flex-col items-center justify-center w-1/2 px-3">
+    <div class="flex flex-col items-center justify-center md:w-1/2 px-3">
       {#each articles as { date, title, img }}
         <article class="w-full [&:not(:first-child)]:mt-8">
           <div

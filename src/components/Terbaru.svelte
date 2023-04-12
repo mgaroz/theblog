@@ -53,13 +53,15 @@
   ];
 </script>
 
-<div class="p-10 pt-[60px] bg-white font-poppins">
+<div class="md:p-10 pt-[60px] bg-white font-poppins">
   <h2
     class="uppercase text-[#121212]/50 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
   >
     Artikel Terbaru
   </h2>
-  <div class="grid justify-between grid-cols-3 gap-12 gap-y-8 px-6">
+  <div
+    class="grid justify-between 2xs:grid-cols-1 md:grid-cols-3 md:gap-12 gap-y-8 px-6"
+  >
     {#each articles as { date, title, intro, img }}
       <div class="flex flex-col">
         <img loading="lazy" src={img} alt="article" />

@@ -39,16 +39,16 @@
   ];
 </script>
 
-<div class="p-10 pt-[60px] bg-white font-poppins">
+<div class="md:p-10 pt-[60px] bg-white font-poppins">
   <h2
     class="uppercase text-[#121212]/50 mb-10 font-semibold px-7 leading-[26px] tracking-[1px]"
   >
     Pilihan Editor
   </h2>
-  <div class="flex justify-between mb-10">
+  <div class="flex justify-between mb-10 2xs:flex-wrap">
     {#each items as { date, title, intro, img }}
       <div
-        class="flex flex-col w-1/4 first:pr-7 first:border-r first:border-r-black/10 px-7 last:pl-7 last:border-l last:border-l-black/10 [&:nth-of-type(2)]:border-r [&:nth-of-type(2)]:border-r-black/10"
+        class="flex flex-col 2xs:w-1/2 md:w-1/4 first:pr-7 first:border-r first:border-r-black/10 px-7 last:pl-7 last:border-l last:border-l-black/10 [&:nth-of-type(2)]:border-r [&:nth-of-type(2)]:border-r-black/10"
       >
         <img loading="lazy" src={img} alt="article" class="w-full" />
         <p class="pt-4 pb-[10px] text-[11px] text-black/50 font-normal">

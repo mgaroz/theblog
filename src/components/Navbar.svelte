@@ -14,7 +14,9 @@
       <a href="https://www.dwinawan.com/index.html">
         <img src={logo} alt="logo" class="h-10 w-10" />
       </a>
-      <ul class="uppercase font-poppins text-xs flex gap-11 font-medium h-10">
+      <ul
+        class="uppercase font-poppins text-xs md:flex gap-11 font-medium h-10 2xs:hidden"
+      >
         <li>Learn</li>
         <li>Shortcut</li>
         <li class="active">Blog</li>
@@ -24,7 +26,7 @@
         <li>Lain Nya</li>
       </ul>
     </div>
-    <div class="flex gap-5" id="right-side">
+    <div class="md:flex 2xs:hidden gap-5" id="right-side">
       <a
         href="https://twitter.com/dwinawan_"
         target="_blank"

@@ -36,16 +36,18 @@
   ];
 </script>
 
-<div class="bg-[#121212] w-full text-white font-poppins pt-[60px] px-10 pb-10">
+<div
+  class="bg-[#121212] w-full text-white font-poppins pt-[60px] md:px-10 pb-10"
+>
   <h2
     class="uppercase text-white/50 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
   >
     Industri Design
   </h2>
-  <div class="flex justify-between mb-10">
+  <div class="flex justify-between md:mb-10 2xs:flex-wrap">
     {#each articles as { date, title, intro, img }}
       <div
-        class="flex flex-col w-1/4 first:pr-7 first:border-r first:border-r-white/10 px-7 last:pl-7 last:border-l last:border-l-white/10 [&:nth-of-type(2)]:border-r [&:nth-of-type(2)]:border-r-white/10"
+        class="flex flex-col 2xs:w-1/2 md:w-1/4 first:pr-7 first:border-r first:border-r-white/10 px-7 last:pl-7 last:border-l last:border-l-white/10 [&:nth-of-type(2)]:border-r [&:nth-of-type(2)]:border-r-white/10 2xs:mb-10"
       >
         <img loading="lazy" src={img} alt="article" class="w-full" />
         <p class="pt-4 pb-[10px] text-[11px] text-white/50 font-normal">

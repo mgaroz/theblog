@@ -217,9 +217,9 @@
   ];
 </script>
 
-<div class="p-10 pt-[60px] bg-white font-poppins">
-  <div class="flex">
-    <div class="w-2/3">
+<div class="md:p-10 pt-[60px] bg-white font-poppins">
+  <div class="flex 2xs:flex-col md:flex-row">
+    <div class="md:w-2/3 2xs:w-full">
       <h2
         class="uppercase text-[#121212]/50 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
       >
@@ -235,12 +235,12 @@
                 {date}
               </p>
               <h2
-                class="text-[24px] leading-[32px] font-semibold tracking-normal"
+                class="md:text-[24px] 2xs:text-[18px] 2xs:leading-[24px] md:leading-[32px] font-semibold tracking-normal"
               >
                 {title}
               </h2>
               <p
-                class="mt-[6px] text-[15px] text-[#1a1b1f]/70 leading-[23px] font-normal"
+                class="mt-[6px] text-[15px] text-[#1a1b1f]/70 leading-[23px] font-normal md:block 2xs:hidden"
               >
                 {intro}
               </p>
@@ -252,7 +252,7 @@
         {/each}
       </div>
     </div>
-    <div class="w-1/3">
+    <div class="md:w-1/3 2xs:w-full">
       <h2
         class="uppercase text-[#121212]/50 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
       >
