@@ -32,7 +32,15 @@
     class="flex md:flex-row 2xs:flex-col text-white font-poppins px-5 pb-10 gap-10 bg-[#121212]"
   >
     <div class="md:w-1/2">
-      <img src={article1} alt="article 1" />
+      <div class="w-full h-auto">
+        <img
+          src={article1}
+          alt="article 1"
+          class="aspect-auto w-full h-full"
+          width="100%"
+          height="100%"
+        />
+      </div>
       <p class="text-[11px] opacity-50 pt-5 pb-[10px]">December 21, 2022</p>
       <h2 class="text-[28px] opacity-80 font-semibold leading-9 mb-4">
         Tentang batasan yang harus dipahami saat membuat design
@@ -50,7 +58,12 @@
             class="w-full border-b-white/10 pb-8 border-b flex gap-6 justify-center"
           >
             <div class="w-[41%]">
-              <img src={img} alt="article" class="object-cover" />
+              <img
+                loading="lazy"
+                src={img}
+                alt="article"
+                class="object-cover"
+              />
             </div>
             <div class="flex flex-col w-1/2 justify-start">
               <p class="text-[11px] opacity-50 pt-1 pb-[10px]">{date}</p>
