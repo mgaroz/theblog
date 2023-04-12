@@ -55,7 +55,7 @@
 
 <div class="md:p-10 pt-[60px] bg-white font-poppins">
   <h2
-    class="uppercase text-[#121212]/50 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
+    class="uppercase text-[#121212]/60 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
   >
     Artikel Terbaru
   </h2>
@@ -67,7 +67,7 @@
         <img loading="lazy" src={img} alt="article" />
         <div class="pt-5 pr-5 pb-10 pl-0">
           <p
-            class="pb-[10px] text-[11px] text-black/50 font-normal leading-[11px]"
+            class="pb-[10px] text-[11px] text-black/60 font-normal leading-[11px]"
           >
             {date}
           </p>

@@ -221,7 +221,7 @@
   <div class="flex 2xs:flex-col md:flex-row">
     <div class="md:w-2/3 2xs:w-full">
       <h2
-        class="uppercase text-[#121212]/50 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
+        class="uppercase text-[#121212]/60 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
       >
         Artikel Lainnya
       </h2>
@@ -230,7 +230,7 @@
           <div class="flex [&:not(:first-child)]:mt-10 gap-x-5">
             <div class="flex flex-col w-[58%]">
               <p
-                class="pb-[10px] text-[11px] text-black/50 font-normal leading-[11px]"
+                class="pb-[10px] text-[11px] text-black/60 font-normal leading-[11px]"
               >
                 {date}
               </p>
@@ -246,7 +246,7 @@
               </p>
             </div>
             <div class="w-[42%]">
-              <img src={img} alt="article" />
+              <img loading="lazy" src={img} alt="article" />
             </div>
           </div>
         {/each}
@@ -254,7 +254,7 @@
     </div>
     <div class="md:w-1/3 2xs:w-full">
       <h2
-        class="uppercase text-[#121212]/50 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
+        class="uppercase text-[#121212]/60 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
       >
         Arsip 2021
       </h2>
@@ -264,7 +264,7 @@
             class="first:pt-[10px] last:pb-[10px] pb-6 pl-6 flex flex-col border-l border-l-[#121212]/10 [&:not(:first-child)]:border-t-[#121212]/10 [&:not(:first-child)]:border-t [&:not(:first-child):not(:last-child)]:pb-6 [&:not(:first-child)]:pt-6 [&:not(:first-child):not(:last-child)]:pl-6"
           >
             <p
-              class="pb-2 text-[11px] text-[#121212]/50 font-normal leading-[11px]"
+              class="pb-2 text-[11px] text-[#121212]/60 font-normal leading-[11px]"
             >
               {date}
             </p>
@@ -284,7 +284,7 @@
         </a>
       </div>
       <h2
-        class="uppercase text-[#121212]/50 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
+        class="uppercase text-[#121212]/60 mb-10 font-semibold px-6 leading-[26px] tracking-[1px]"
       >
         Testimonial
       </h2>
