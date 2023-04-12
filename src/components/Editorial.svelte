@@ -4,6 +4,7 @@
   import article3 from "../images/articles/thumb_article19.webp";
   import article4 from "../images/articles/thumb_article39.webp";
   import learnbanner from "../images/tutorials/learnbanner.avif";
+  import learnbannersm from "../images/tutorials/learnbanner_small.webp";
 
   let items = [
     {
@@ -45,7 +46,7 @@
   >
     Pilihan Editor
   </h2>
-  <div class="flex justify-between mb-10 2xs:flex-wrap">
+  <div class="flex justify-between pb-10 2xs:flex-wrap">
     {#each items as { date, title, intro, img }}
       <div
         class="flex flex-col 2xs:w-1/2 md:w-1/4 first:pr-7 first:border-r first:border-r-black/10 px-7 last:pl-7 last:border-l last:border-l-black/10 [&:nth-of-type(2)]:border-r [&:nth-of-type(2)]:border-r-black/10"
@@ -67,5 +68,16 @@
   </div>
 </div>
 <div>
-  <img loading="lazy" src={learnbanner} alt="learnbanner" class="w-full" />
+  <img
+    loading="lazy"
+    src={learnbanner}
+    alt="learnbanner"
+    class="w-full 2xs:hidden md:block"
+  />
+  <img
+    loading="lazy"
+    src={learnbannersm}
+    alt="learnbanner"
+    class="w-full md:hidden"
+  />
 </div>

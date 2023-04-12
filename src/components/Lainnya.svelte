@@ -280,7 +280,7 @@
         <a
           href="https://www.dwinawan.com/perjalanan-design-saya-dari-tahun-2013.html"
         >
-          <img loading="lazy" src={banner} alt="banner" />
+          <img loading="lazy" src={banner} alt="banner" class=" mx-auto" />
         </a>
       </div>
       <h2
